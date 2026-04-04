@@ -1,9 +1,12 @@
 import { useEffect } from 'react';
+import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Skills from './components/Skills';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import Blog from './pages/Blog';
+import BlogPost from './pages/BlogPost';
 
 function useSectionFadeIn() {
   useEffect(() => {
@@ -24,12 +27,11 @@ function useSectionFadeIn() {
   }, []);
 }
 
-export default function App() {
+function Home() {
   useSectionFadeIn();
 
   return (
     <div className="bg-[#0a0a0a] min-h-screen">
-      <Navbar />
       <main>
         <Hero />
         <div className="section-fade">
@@ -41,5 +43,18 @@ export default function App() {
       </main>
       <Footer />
     </div>
+  );
+}
+
+export default function App() {
+  return (
+    <>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:id" element={<BlogPost />} />
+      </Routes>
+    </>
   );
 }

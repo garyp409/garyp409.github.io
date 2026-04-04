@@ -1,0 +1,28 @@
+[
+  {
+    "id": "hello-world",
+    "title": "Hello, World",
+    "date": "2026-04-04",
+    "excerpt": "First post — an intro to what I plan to write about here: Linux, cloud support, development, and the lessons learned from keeping production systems alive.",
+    "tags": ["general"],
+    "content": [
+      "Welcome to my blog. I've been meaning to start one of these for a while, and here we are.",
+      "Most of what I'll be writing about comes from my day-to-day work as a Senior Technical Support Engineer — that means Linux, cloud infrastructure, debugging things that should not be broken, and more.",
+      "Expect posts on troubleshooting methodology, interesting bugs I've encountered, tools I rely on, and the kind of institutional knowledge that never makes it into documentation.",
+      "If any of it is useful to you, great. If it's just useful to me as a way to think through problems in writing, that's fine too."
+    ]
+  },
+  {
+    "id": "popularity-of-ai",
+    "title": "My Take on the Popularity of AI",
+    "date": "2026-04-04",
+    "excerpt": "The website and the first post were written by AI.",
+    "tags": ["ai", "development", "debugging"],
+    "content": [
+      "Three years ago, I went out of my way to avoid using AI. I literally would move from 'AI search' to regular search results, if AI was enabled. I was still teaching classes at my local college, and I saw the results of students using AI to try and shortcut through programming and web fundamentals. In my short time teaching, I quickly learned to think of AI as cheating.",
+      "However, when I moved on to a new job, I found myself utilizing AI more and more. It started small with reading what Google's AI results would say. If I had put enough context into the search prompt, it was generally good information. Eventually, I faced issues at work that none of us had seen before, and I found myself using AI more to gain insights into the problems I was facing. First, I used it to help guide me in research. Soon, it was helping to organize my RCA documentation. Sometimes it would include details I had not thought about. By the end of my first support role, it was analyzing Java flight recordings for me.",
+      "Now, as I look for a new position since being laid off, I needed to improve my resume and create a personal website. I decided to pay for Claude and try it out. It wrote my website with a single prompt. It personalized it with a second prompt and attached resume. I only needed to tweak a single line. Later, it created this blog page with a third prompt. I was amazed that it could do all this in minutes.",
+      "Granted, this site is extraordinarily simple compared to production solutions. But it still shows how powerful AI can be for development. I can only imagine how much more powerful it will be in the future, and I'm excited to see where it goes."
+    ]
+  }
+]
